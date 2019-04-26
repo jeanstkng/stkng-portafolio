@@ -1,5 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* Loading SVG */
+
+svg path,
+svg rect{
+  fill: rgb(153, 0, 0);
+}
+
+
+/* Animations */
 
 @media (print), (prefers-reduced-motion) {
     .animated {
